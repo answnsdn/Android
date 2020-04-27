@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">advancedView</string>
+    <string name="welcome">환영합니다.</string>
+    <string name="getdata">입력문자 가져오기</string>
+    <string name="setdata">문자열 세팅하기</string>
+    <string name="inputtxt">전송</string>
+    <string name="edittxt">문자를 입력하세요.</string>
+
+</resources>
