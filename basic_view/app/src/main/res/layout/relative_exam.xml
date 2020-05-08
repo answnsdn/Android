@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#388E3C"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#0097A7"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#FFA000"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#512DA8"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#D32F2F"
+        android:layout_centerVertical="true"
+        />
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:background="#AFB42B"
+        >
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#C2185B"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/yellowtxt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#FBC02D"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

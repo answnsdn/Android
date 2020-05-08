@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Scroll 뷰의 하위는 무조건 한 개 이어야 한다.-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#303F9F"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#388E3C"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#D32F2F"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
